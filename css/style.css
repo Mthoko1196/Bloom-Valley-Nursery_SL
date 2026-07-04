@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #00231C; /* Detritus Green */
+  background-color: #F7F7F7; /* Cloudy Gray */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #014038; /* Canopy Green */
+  color: #F7F7F7;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: #F7F7F7;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #F0C06D; /* Sunlit Petal */
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: #BDD4DA; /* Sky Bloom */
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  background-color: #F0C06D; /* Sunlit Petal */
+  color: #00231C;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #96BAA0; /* Meadow Mist */
+}
+
+/* Footer */
+footer {
+  background-color: #014038;
+  color: #F7F7F7;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    margin: 5px;
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
